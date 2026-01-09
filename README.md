@@ -4,11 +4,15 @@
 
 <div align="center">
   
-  ### 👋 Hey there! I'm Ajay
-
-  **Full-Stack Developer | Product Builder | Tech Enthusiast**
+  ### 👋 Hi, I'm Ajay Krishna M.
   
-  Building beautiful, functional products that enhance productivity and creativity. Passionate about clean code, great UX, and solving real problems.
+  **BSc Honours in Data Science | Quantum Computing & AI Enthusiast | Full-Stack Developer**
+
+  Welcome to my GitHub! I'm a data scientist and software engineer passionate about exploring the frontiers of technology—from quantum computing and artificial intelligence to building production-ready applications that solve real-world problems.
+  
+  I bridge the gap between theoretical data science and practical software engineering, creating elegant solutions that are both mathematically sound and user-centric. When I'm not diving deep into algorithms or crafting clean code, you'll find me experimenting with emerging technologies and contributing to open-source projects.
+  
+  *Currently exploring: Quantum algorithms | Large Language Models | Full-stack architecture | Production system design*
   
   [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=About.me&logoColor=white)](https://github.com/ajaybe-ops)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajaybe-ops)
@@ -108,14 +112,17 @@ A production-ready music platform that integrates with Spotify, featuring real-t
 
 ---
 
-## 💡 What I'm Learning
+## 💡 What I'm Learning & Exploring
 
 <div align="center">
   
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![Quantum Computing](https://img.shields.io/badge/Quantum-000000?style=for-the-badge&logo=qiskit&logoColor=white)
+  ![Machine Learning](https://img.shields.io/badge/ML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+  ![Deep Learning](https://img.shields.io/badge/Deep_Learning-FF6F00?style=for-the-badge&logo=pytorch&logoColor=white)
+  ![Data Science](https://img.shields.io/badge/Data_Science-FF6C37?style=for-the-badge&logo=pandas&logoColor=white)
   ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
   ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![Machine Learning](https://img.shields.io/badge/ML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
   ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
   
@@ -125,11 +132,12 @@ A production-ready music platform that integrates with Spotify, featuring real-t
 
 ## 🎯 Current Focus
 
-- 🚀 Building production-ready web applications
-- 🎨 Creating beautiful, accessible user interfaces
-- ⚡ Optimizing performance and user experience
-- 🔒 Implementing robust error handling and security
-- 📚 Learning system design and architecture patterns
+- 🔬 **Quantum Computing**: Exploring quantum algorithms and their applications in optimization and machine learning
+- 🤖 **AI & ML**: Developing deep learning models and working with large language models
+- 🚀 **Full-Stack Development**: Building scalable, production-ready applications with modern frameworks
+- 📊 **Data Science**: Applying statistical modeling and data analysis to solve complex problems
+- 🎨 **UX Engineering**: Creating intuitive, accessible interfaces that enhance user productivity
+- ⚡ **System Design**: Learning distributed systems, microservices architecture, and cloud infrastructure
 
 ---
 
@@ -170,14 +178,14 @@ A production-ready music platform that integrates with Spotify, featuring real-t
 
 ---
 
-## 🔥 Fun Facts
+## 🔥 About Me
 
-- ⚡ I'm passionate about building products that solve real problems
-- 🎵 I love music and integrating audio experiences into web apps
-- 🎨 I obsess over clean code and beautiful user interfaces
-- 🚀 I'm always learning and exploring new technologies
-- 💡 I believe in writing code that's maintainable and scalable
-- 🌱 I'm currently focused on full-stack development and system design
+- 🎓 **Education**: BSc Honours in Data Science — where mathematics meets practical problem-solving
+- 🔬 **Research Interests**: Quantum machine learning, algorithmic optimization, and computational complexity theory
+- 💻 **Engineering Philosophy**: Write code that humans can read, machines can execute, and maintainers can love
+- 🎵 **Creative Side**: Built Resonance to combine my love for music with productivity—proving that focus and creativity can coexist
+- 🌱 **Continuous Learning**: Always exploring the intersection of theoretical computer science and practical software engineering
+- 🤝 **Collaboration**: Open to discussing quantum computing, AI research, data science projects, or full-stack challenges
 
 ---
 
