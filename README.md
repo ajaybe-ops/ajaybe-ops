@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ajaybe-ops&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff&desc=Building%20products%20that%20matter&descAlignY=60&descAlign=60" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ajaybe-ops&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff&desc=Data%20Science%20%7C%20Quantum%20Computing%20%7C%20AI%20Enthusiast&descAlignY=60&descAlign=60" />
 </div>
 
 <div align="center">
@@ -25,11 +25,15 @@
 
 <div align="center">
   
-  ## 🚀 What I'm Currently Building
+  ## 🚀 Featured Projects
   
   **[Resonance](https://github.com/ajaybe-ops/Resonance-)** - A focus-enhanced listening platform with synchronized lyrics and Spotify integration
   
-  *Building beautiful, production-ready products with modern web technologies*
+  **[Healthcare Diagnostic Platform](https://github.com/ajaybe-ops/healthcare-diagnostic-platform)** - AI-powered diagnostic solutions
+  
+  **[WhatsApp Audit Export](https://github.com/ajaybe-ops/WhatsApp-Audit-Export)** - Convert WhatsApp chats to auditor-ready Excel files with full traceability
+  
+  *Building production-ready solutions that combine data science, AI, and elegant engineering*
 
 </div>
 
@@ -47,12 +51,19 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### Backend & Tools
+### Backend & Data Science
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
+### Tools & Infrastructure
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ### Cloud & APIs
 ![Spotify API](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)
