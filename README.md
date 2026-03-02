@@ -151,7 +151,7 @@ A production-ready music platform that integrates with Spotify, featuring real-t
 
 ## 🔥 About Me
 
-- 🎓 **Education**: A studnet of IIY G working for AI contribution to society — where mathematics meets practical problem-solving
+- 🎓 **Education**: A studnet of IIT G working for AI contribution to society — where mathematics meets practical problem-solving
 - 🔬 **Research Interests**: Quantum machine learning, algorithmic optimization, and computational complexity theory
 - 💻 **Engineering Philosophy**: Write code that humans can read, machines can execute, and maintainers can love
 - 🎵 **Creative Side**: Built Resonance to combine my love for music with productivity—proving that focus and creativity can coexist
