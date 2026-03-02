@@ -151,7 +151,7 @@ A production-ready music platform that integrates with Spotify, featuring real-t
 
 ## 🔥 About Me
 
-- 🎓 **Education**: BSc Honours in Data Science — where mathematics meets practical problem-solving
+- 🎓 **Education**: A studnet of IIY G working for AI contribution to society — where mathematics meets practical problem-solving
 - 🔬 **Research Interests**: Quantum machine learning, algorithmic optimization, and computational complexity theory
 - 💻 **Engineering Philosophy**: Write code that humans can read, machines can execute, and maintainers can love
 - 🎵 **Creative Side**: Built Resonance to combine my love for music with productivity—proving that focus and creativity can coexist
@@ -159,13 +159,3 @@ A production-ready music platform that integrates with Spotify, featuring real-t
 - 🤝 **Collaboration**: Open to discussing quantum computing, AI research, data science projects, or full-stack challenges
 
 ---
-
-<div align="center">
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
-  
-  <p>Made with ❤️ by ajaybe-ops</p>
-  
-  <img src="https://komarev.com/ghpvc/?username=ajaybe-ops&color=blueviolet&style=flat-square" alt="Profile views" />
-  
-</div>
