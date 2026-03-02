@@ -6,7 +6,7 @@
   
   ### 👋 Hi, I'm Ajay Krishna M.
   
-  **BSc Honours in Data Science | Quantum Computing & AI Enthusiast | Full-Stack Developer**
+  **IIT G AI STUDENT | Quantum Computing & AI Enthusiast | Full-Stack Developer**
 
   Welcome to my GitHub! I'm a data scientist and software engineer passionate about exploring the frontiers of technology—from quantum computing and artificial intelligence to building production-ready applications that solve real-world problems.
   
@@ -78,24 +78,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ajaybe-ops&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"/>
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajaybe-ops&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
-  
-</div>
-
-<div align="center">
-  
-  <img src="https://github-readme-streak-stats.demolab.com/?user=ajaybe-ops&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
-  
-</div>
-
----
-
 ## 🔥 Contribution Graph
 
 <div align="center">
@@ -162,28 +144,6 @@ A production-ready music platform that integrates with Spotify, featuring real-t
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajaybe-ops)
   [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ajaybe_ops)
   [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajaybe@example.com)
-  
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-  ![trophy](https://github-profile-trophy.vercel.app/?username=ajaybe-ops&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7)
-  
-</div>
-
----
-
-## 📈 Detailed GitHub Metrics
-
-<div align="center">
-  
-  *Detailed metrics are automatically generated via GitHub Actions workflow*
-  
-  <img src="https://raw.githubusercontent.com/ajaybe-ops/ajaybe-ops/main/github-metrics.svg" alt="GitHub Metrics" />
   
 </div>
 
