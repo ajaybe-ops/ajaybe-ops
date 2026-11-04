@@ -53,11 +53,10 @@ outputs: 24,313,856 trainable parameters of 3,237,063,680 (0.75%), training loss
 
 ## Visual assets
 
-The top of the profile is visual: circular avatar, social badges, a profile-view
-counter, a tool badge row, and two analytics cards.
+The top of the profile is visual: social badges, a profile-view counter, a tool
+badge row, and two analytics cards. The circular portrait is the GitHub profile
+avatar itself, so the README does not duplicate it.
 
-- `assets/avatar.png` is a circular crop of the account avatar
-  (`https://github.com/ajaybe-ops.png`). Regenerate it if the avatar changes.
 - `assets/github-stats*.svg` and `assets/top-languages*.svg` are generated, not
   hand-edited. They are committed so the README does not depend on a
   third-party stats service at page-view time.

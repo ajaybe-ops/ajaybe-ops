@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/avatar.png" alt="Portrait of Ajay Krishna M." width="176" height="176">
-
 # Ajay Krishna M.
 
 **AI Engineer · LLM systems · Applied AI**
