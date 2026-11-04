@@ -1,14 +1,62 @@
 <div align="center">
 
+<img src="assets/avatar.png" alt="Portrait of Ajay Krishna M." width="176" height="176">
+
 # Ajay Krishna M.
 
 **AI Engineer · LLM systems · Applied AI**
 
 I build agent tools, retrieval systems, and model adaptations that can be evaluated, secured, and operated.
 
-[Portfolio](https://ajaybe-ops.github.io/) · [LinkedIn](https://www.linkedin.com/in/ajaykrishagi/) · [Email](mailto:ajaykrishiit.uk@gmail.com) · [X](https://x.com/jaykrishAGI)
+<a href="https://ajaybe-ops.github.io/"><img src="https://img.shields.io/badge/Portfolio-ajaybe--ops.github.io-0969da?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/ajaykrishagi/"><img src="https://img.shields.io/badge/LinkedIn-Ajay%20Krishna%20M.-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:ajaykrishiit.uk@gmail.com"><img src="https://img.shields.io/badge/Email-ajaykrishiit.uk%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://x.com/jaykrishAGI"><img src="https://img.shields.io/badge/X-%40jaykrishAGI-000000?style=flat-square&logo=x&logoColor=white" alt="X"></a>
+
+<img src="https://komarev.com/ghpvc/?username=ajaybe-ops&label=Profile%20views&color=0969da&style=flat-square" alt="Profile views">
 
 </div>
+
+## Languages and tools
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/Model_Context_Protocol-6E40C9?style=for-the-badge" alt="Model Context Protocol">
+
+</div>
+
+<sub>Only tools that appear in the public or evaluated work below — no badge wall of things I have not shipped.</sub>
+
+## GitHub analytics
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg">
+  <img src="assets/github-stats.svg" alt="GitHub statistics card: 25 public repositories, 13 stars, 2 followers, and 223 contributions in the last year." width="410">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/top-languages-dark.svg">
+  <img src="assets/top-languages.svg" alt="Top languages card, by bytes: Jupyter Notebook 82.7%, Python 9.0%, HTML 5.0%, TypeScript 3.2%." width="410">
+</picture>
+
+</div>
+
+<sub>Generated from the GitHub API on 2026-11-04 by [`scripts/profile_stats.py`](scripts/profile_stats.py). Activity volume measures usage, not engineering quality — the evidence starts below.</sub>
 
 ---
 

@@ -51,6 +51,30 @@ from the training cell. The numbers quoted on the profile come from those
 outputs: 24,313,856 trainable parameters of 3,237,063,680 (0.75%), training loss
 1.0173590699831645, and 780.2905 seconds on a Tesla T4.
 
+## Visual assets
+
+The top of the profile is visual: circular avatar, social badges, a profile-view
+counter, a tool badge row, and two analytics cards.
+
+- `assets/avatar.png` is a circular crop of the account avatar
+  (`https://github.com/ajaybe-ops.png`). Regenerate it if the avatar changes.
+- `assets/github-stats*.svg` and `assets/top-languages*.svg` are generated, not
+  hand-edited. They are committed so the README does not depend on a
+  third-party stats service at page-view time.
+
+```bash
+export GITHUB_TOKEN="<public read token>"
+python scripts/profile_stats.py   # rewrites assets/github-stats*.svg and top-languages*.svg
+```
+
+The script pulls repositories, stars, followers, and the 12-month contribution
+count from the REST and GraphQL APIs. Language shares are bytes across public,
+non-fork repositories. Re-run it when the numbers move, then update the date in
+the `README.md` caption and the verification footnote.
+
+Badge rules: only tools that appear in the linked public or evaluated work, and
+no badge for a skill without a repository that uses it.
+
 ## Editing rules
 
 1. **No metric without a command or committed output.** If it cannot be re-run,
