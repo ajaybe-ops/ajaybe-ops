@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "issue": 1,
+  "playerColor": "w",
+  "engineColor": "b",
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "moves": [],
+  "status": "active",
+  "createdAt": "2026-11-15T09:01:36.146Z",
+  "updatedAt": "2026-11-15T09:01:36.146Z"
+}
