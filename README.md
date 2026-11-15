@@ -4,9 +4,9 @@
   <img src="assets/banner.svg" alt="MATRIX//PROFILE — ajaybe-ops" width="100%" />
 </a>
 
-### `> the arcade is real`
+### `> Asato Ma Sad Gamaya`
 
-Six games. No installs. No tracking.
+Doth mother know you weareth her drapes?
 
 [ **JACK IN →** ](https://ajaybe-ops.github.io/ajaybe-ops/arcade/) &nbsp;·&nbsp; [ play chess by issue ](https://github.com/ajaybe-ops/ajaybe-ops/issues/new?template=chess.yml&title=Chess%20challenge)
 
