@@ -278,7 +278,7 @@ Run these in order. Each one catches a different class of mistake.
 
 ```bash
 # 1. Unit and workflow-level tests (chess rules, games, bot, Spotify, SVG)
-node --test tests/
+npm test
 
 # 2. Generated assets are structurally sound and placeholder-free
 node scripts/check-assets.mjs assets

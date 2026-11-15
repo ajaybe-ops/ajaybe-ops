@@ -312,7 +312,7 @@ and spaced so they cannot collide.
 ## Testing
 
 ```bash
-node --test tests/
+npm test
 ```
 
 | suite | what it protects |

@@ -189,7 +189,7 @@ node scripts/dev-server.mjs
 No `npm install` is required. Node 20+ is enough.
 
 ```bash
-node --test tests/          # 79 tests: rules, games, bot, Spotify, SVG
+npm test                    # 79 tests: rules, games, bot, Spotify, SVG
 node scripts/chess-cli.mjs  # play the engine in your terminal
 ```
 
