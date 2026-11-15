@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-labelledby="t d">
   <title id="t">Language mix</title>
-  <desc id="d">Primary languages across 29 public repositories.</desc>
+  <desc id="d">Primary languages across 30 public repositories.</desc>
   <defs>
     <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" fill="#26ff9c" opacity="0.05" />
@@ -37,11 +37,11 @@
   <text x="852" y="30" class="mono sub" text-anchor="end">UPDATED 2026-11-15</text>
   <line x1="28" y1="40" x2="852" y2="40" stroke="#0c271d" />
   <rect x="28" y="78" width="824" height="16" rx="3" fill="#0a1d16" />
-  <rect x="28.00" y="78" width="318.44" height="16" rx="3" fill="#26ff9c" /><rect x="348.44" y="78" width="226.89" height="16" rx="3" fill="#16c87a" /><rect x="577.33" y="78" width="135.33" height="16" rx="3" fill="#0fa968" /><rect x="714.67" y="78" width="89.56" height="16" rx="3" fill="#7fdc9a" /><rect x="806.22" y="78" width="43.78" height="16" rx="3" fill="#2dd4bf" />
+  <rect x="28.00" y="78" width="272.67" height="16" rx="3" fill="#26ff9c" /><rect x="302.67" y="78" width="226.89" height="16" rx="3" fill="#16c87a" /><rect x="531.56" y="78" width="135.33" height="16" rx="3" fill="#0fa968" /><rect x="668.89" y="78" width="89.56" height="16" rx="3" fill="#7fdc9a" /><rect x="760.44" y="78" width="89.56" height="16" rx="3" fill="#2dd4bf" />
   <g>
       <rect x="28" y="125" width="9" height="9" rx="2" fill="#26ff9c" />
       <text x="46" y="134" class="mono" font-size="12" fill="#c8ffe3">Python</text>
-      <text x="414" y="134" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">7 · 38.9%</text>
+      <text x="414" y="134" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">6 · 33.3%</text>
     </g>
   <g>
       <rect x="452" y="125" width="9" height="9" rx="2" fill="#16c87a" />
@@ -55,14 +55,14 @@
     </g>
   <g>
       <rect x="452" y="153" width="9" height="9" rx="2" fill="#7fdc9a" />
-      <text x="470" y="162" class="mono" font-size="12" fill="#c8ffe3">TypeScript</text>
+      <text x="470" y="162" class="mono" font-size="12" fill="#c8ffe3">JavaScript</text>
       <text x="838" y="162" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">2 · 11.1%</text>
     </g>
   <g>
       <rect x="28" y="181" width="9" height="9" rx="2" fill="#2dd4bf" />
-      <text x="46" y="190" class="mono" font-size="12" fill="#c8ffe3">JavaScript</text>
-      <text x="414" y="190" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">1 · 5.6%</text>
+      <text x="46" y="190" class="mono" font-size="12" fill="#c8ffe3">TypeScript</text>
+      <text x="414" y="190" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">2 · 11.1%</text>
     </g>
   <text x="28" y="222" class="mono" font-size="9" letter-spacing="1.4" fill="#6fbf97">PRIMARY LANGUAGE OF PUBLIC REPOSITORIES · FORKS EXCLUDED</text>
-  <text x="852" y="222" class="mono" font-size="9" letter-spacing="1.4" fill="#0d6b45" text-anchor="end">29 REPOS</text>
+  <text x="852" y="222" class="mono" font-size="9" letter-spacing="1.4" fill="#0d6b45" text-anchor="end">30 REPOS</text>
 </svg>
