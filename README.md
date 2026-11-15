@@ -24,7 +24,7 @@ Six games. One hand-written chess engine. A bot that answers moves in GitHub Iss
 
 ## `> ./play --list`
 
-The screenshots below are not mockups — they were captured from the deployed arcade in a real browser. GitHub does not execute JavaScript inside a README, so each one links to the playable page.
+The screenshots below are not mockups — they were captured from the running arcade in a real browser. GitHub does not execute JavaScript inside a README, so each one links to the playable page.
 
 <table>
 <tr>
