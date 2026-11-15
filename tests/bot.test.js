@@ -110,6 +110,7 @@ test('boardReply renders an ASCII board and the FEN', () => {
   assert.match(reply, /\+------------------------\+/);
   assert.match(reply, /a {2}b {2}c {2}d/);
   assert.match(reply, /FEN/);
+  assert.match(reply, /\/arcade\/#chess/);
 });
 
 test('gamePath is stable and issue-scoped', () => {

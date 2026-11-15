@@ -200,7 +200,7 @@ function helpFooter() {
   return [
     '<sub>Reply with a move in SAN (`Nf3`, `exd5`, `O-O`, `e8=Q`) or coordinates (`g1f3`).',
     'Commands: `/board`, `/fen`, `/resign`, `/new`, `/help`.',
-    'Prefer a visual board? Play the engine instantly in the [arcade](https://ajaybe-ops.github.io/ajaybe-ops/#chess).</sub>',
+    'Prefer a visual board? Play the engine instantly in the [arcade](https://ajaybe-ops.github.io/ajaybe-ops/arcade/#chess).</sub>',
   ].join(' ');
 }
 
