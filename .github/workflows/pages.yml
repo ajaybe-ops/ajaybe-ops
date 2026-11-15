@@ -1,0 +1,56 @@
+name: Deploy arcade
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'arcade/**'
+      - 'lib/chess.js'
+      - 'site/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # GitHub Pages serves one directory. The arcade imports ../../../lib/chess.js,
+      # so the deployment keeps that exact depth instead of flattening the site.
+      - name: Stage the site
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          mkdir -p _site
+          cp -r arcade _site/arcade
+          mkdir -p _site/lib
+          cp lib/chess.js _site/lib/chess.js
+          cp site/index.html _site/index.html
+          test -f _site/arcade/index.html
+          test -f _site/lib/chess.js
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

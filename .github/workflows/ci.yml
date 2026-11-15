@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run the test suite
+        run: node --test tests/
+
+      - name: Build the static SVG assets (smoke test)
+        run: node scripts/generate-assets.mjs --username ci-smoke --out "$RUNNER_TEMP/profile-assets"
+
+      - name: Check generated assets
+        run: node scripts/check-assets.mjs "$RUNNER_TEMP/profile-assets"

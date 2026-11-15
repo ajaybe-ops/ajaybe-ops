@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="t d">
+  <title id="t">About this developer</title>
+  <desc id="d">A terminal window printing a short about file.</desc>
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#26ff9c" opacity="0.05" />
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#0a2417" />
+      <stop offset="70%" stop-color="#030705" />
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", "Courier New", monospace; }
+      .hdr { font-size: 12px; letter-spacing: 2.6px; fill: #26ff9c; }
+      .sub { font-size: 10px; letter-spacing: 1.5px; fill: #6fbf97; }
+      .big { font-size: 40px; font-weight: 700; fill: #8dffc6; font-variant-numeric: tabular-nums; }
+      .label { font-size: 10px; letter-spacing: 2px; fill: #6fbf97; }
+      .value { font-size: 13px; fill: #c8ffe3; }
+      .muted { fill: #6fbf97; }
+      
+      .line { opacity: 1; animation: type .4s ease-out; }
+      .cursor { animation: blink 1.15s steps(1) infinite; }
+      @keyframes type { from { opacity: 0; transform: translateX(-6px) } to { opacity: 1; transform: none } }
+      @keyframes blink { 0%, 55% { opacity: .85 } 56%, 100% { opacity: .08 } }
+      @media (prefers-reduced-motion: reduce) {
+        .line, .cursor { animation: none; }
+      }
+    </style>
+    
+  </defs>
+  <rect width="900" height="300" rx="6" fill="url(#vignette)" />
+  <rect width="900" height="300" rx="6" fill="url(#scan)" />
+  <rect x="0.5" y="0.5" width="899" height="299" rx="6" fill="none" stroke="#113a2a" />
+  
+  <circle cx="31" cy="26" r="3" fill="#0d6b45" />
+  <circle cx="42" cy="26" r="3" fill="#0d6b45" opacity="0.7" />
+  <circle cx="53" cy="26" r="3" fill="#0d6b45" opacity="0.4" />
+  <text x="70" y="30" class="mono hdr">MATRIX//ABOUT — ajaybe-ops</text>
+  <text x="872" y="30" class="mono sub" text-anchor="end">READ-ONLY</text>
+  <line x1="28" y1="40" x2="872" y2="40" stroke="#0c271d" />
+  <text class="line" x="44" y="92" font-size="14" fill="#26ff9c" style="animation-delay:0ms">$ cat about.md</text>
+  <text class="line" x="44" y="120" font-size="14" fill="#c8ffe3" style="animation-delay:120ms">developer. builder. occasional reverse-engineer.</text>
+  <text class="line" x="44" y="148" font-size="14" fill="#c8ffe3" style="animation-delay:240ms">small tools, fast pages, and games that live in a browser tab.</text>
+  <text class="line" x="44" y="176" font-size="14" fill="#26ff9c" style="animation-delay:360ms">$ ls now</text>
+  <text class="line" x="44" y="204" font-size="14" fill="#6fbf97" style="animation-delay:480ms">arcade/   chess-issues/   spotify-badge/   actions/</text>
+  <text class="line" x="44" y="232" font-size="14" fill="#26ff9c" style="animation-delay:600ms">$ ./run --next</text>
+  <text class="line" x="44" y="260" font-size="14" fill="#8dffc6" style="animation-delay:720ms">[ok] shipping in public, one small commit at a time</text>
+  <rect class="cursor" x="44" y="275" width="8" height="15" fill="#26ff9c" opacity="0.8" />
+  <text x="872" y="274" class="mono sub" text-anchor="end">HINT: THE ARCADE IS REAL</text>
+  <g stroke="#0d6b45" fill="none" stroke-width="1">
+    <path d="M14 28 V14 H28" />
+    <path d="M872 14 H886 V28" />
+    <path d="M14 272 V286 H28" />
+    <path d="M872 286 H886 V272" />
+  </g>
+</svg>

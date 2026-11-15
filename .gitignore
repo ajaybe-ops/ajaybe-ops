@@ -1,1 +1,20 @@
-.github/metrics/
+# dependencies (there are none, but keep the door closed)
+node_modules/
+
+# local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# deployment and build scratch space
+.vercel/
+_site/
+
+# local scratch files
+tmp/
+tmp-*
+*.log
+
+# editor / OS noise
+.DS_Store
+Thumbs.db

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#030705" />
+  <title>MATRIX ARCADE — ajaybe-ops</title>
+  <meta name="description" content="A Matrix-themed developer arcade: chess against an engine, snake, 2048, minesweeper, tic-tac-toe and a text adventure. No tracking, no build step." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23030705'/%3E%3Ctext x='16' y='23' font-family='monospace' font-size='18' fill='%2326ff9c' text-anchor='middle'%3E%26gt;_%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./css/arcade.css" />
+</head>
+<body>
+  <a class="skip-link" href="#stage">Skip to games</a>
+
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <div class="shell">
+    <header class="topbar">
+      <p class="brand">
+        <span class="brand-mark" aria-hidden="true">◤</span>
+        MATRIX<span class="brand-dim">//</span>ARCADE
+        <span class="brand-cursor" aria-hidden="true">_</span>
+      </p>
+      <nav class="tabs" role="tablist" aria-label="Arcade sections">
+        <button class="tab" role="tab" id="tab-chess" aria-controls="panel-chess" aria-selected="true" data-panel="chess">chess</button>
+        <button class="tab" role="tab" id="tab-snake" aria-controls="panel-snake" aria-selected="false" tabindex="-1" data-panel="snake">snake</button>
+        <button class="tab" role="tab" id="tab-2048" aria-controls="panel-2048" aria-selected="false" tabindex="-1" data-panel="2048">2048</button>
+        <button class="tab" role="tab" id="tab-mines" aria-controls="panel-mines" aria-selected="false" tabindex="-1" data-panel="mines">minesweeper</button>
+        <button class="tab" role="tab" id="tab-tictactoe" aria-controls="panel-tictactoe" aria-selected="false" tabindex="-1" data-panel="tictactoe">tic-tac-toe</button>
+        <button class="tab" role="tab" id="tab-terminal" aria-controls="panel-terminal" aria-selected="false" tabindex="-1" data-panel="terminal">terminal</button>
+        <button class="tab" role="tab" id="tab-about" aria-controls="panel-about" aria-selected="false" tabindex="-1" data-panel="about">about</button>
+      </nav>
+      <a class="gh-link" href="https://github.com/ajaybe-ops">github <span aria-hidden="true">↗</span><span class="sr-only">(opens in a new tab)</span></a>
+    </header>
+
+    <main class="stage" id="stage">
+      <section class="panel" id="panel-chess" role="tabpanel" aria-labelledby="tab-chess" data-view="chess"></section>
+      <section class="panel" id="panel-snake" role="tabpanel" aria-labelledby="tab-snake" data-view="snake" hidden></section>
+      <section class="panel" id="panel-2048" role="tabpanel" aria-labelledby="tab-2048" data-view="2048" hidden></section>
+      <section class="panel" id="panel-mines" role="tabpanel" aria-labelledby="tab-mines" data-view="mines" hidden></section>
+      <section class="panel" id="panel-tictactoe" role="tabpanel" aria-labelledby="tab-tictactoe" data-view="tictactoe" hidden></section>
+      <section class="panel" id="panel-terminal" role="tabpanel" aria-labelledby="tab-terminal" data-view="terminal" hidden></section>
+      <section class="panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" data-view="about" hidden></section>
+    </main>
+
+    <footer class="statusbar">
+      <p class="status-dot" aria-hidden="true">●</p>
+      <p id="live" class="live" role="status" aria-live="polite">connection established</p>
+      <p class="status-hint" id="status-hint"></p>
+    </footer>
+  </div>
+
+  <div class="boot" id="boot" hidden>
+    <div class="boot-inner">
+      <pre class="boot-log" id="boot-log" aria-hidden="true"></pre>
+      <p class="boot-skip">
+        <button type="button" class="btn ghost" id="boot-skip">skip boot <kbd>esc</kbd></button>
+      </p>
+    </div>
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

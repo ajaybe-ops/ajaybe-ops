@@ -1,0 +1,26 @@
+{
+  "name": "matrix-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A Matrix-themed GitHub profile: animated README assets, a playable arcade, Issues chess and a Spotify now-playing badge.",
+  "homepage": "https://ajaybe-ops.github.io/ajaybe-ops/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajaybe-ops/ajaybe-ops.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "test": "node --test tests/",
+    "assets": "node scripts/generate-assets.mjs && node scripts/github-assets.mjs",
+    "configure": "node scripts/configure.mjs",
+    "check-assets": "node scripts/check-assets.mjs assets",
+    "check-links": "node scripts/check-links.mjs",
+    "spotify-auth": "node scripts/spotify-auth.mjs",
+    "chess": "node scripts/chess-cli.mjs"
+  }
+}

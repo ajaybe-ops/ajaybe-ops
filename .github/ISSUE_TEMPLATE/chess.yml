@@ -1,0 +1,20 @@
+name: Chess challenge
+description: Play a game of chess against the profile owner, one comment at a time.
+title: "Chess challenge"
+labels: ["chess"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## You are White.
+
+        Submit this issue and the bot will reply with a freshly rendered board.
+        After that, comment a move in standard algebraic notation (`e4`, `Nf3`,
+        `exd5`, `O-O`, `e8=Q`) or coordinates (`e2e4`).
+
+        Useful commands: `/board`, `/fen`, `/resign`, `/new`, `/help`.
+
+        The game is stored at `chess/games/issue-<number>.json` and every move is
+        a normal git commit. The engine replies in seconds, but GitHub Actions can
+        take a minute on a cold run. Please keep comments short; long comments are
+        ignored on purpose.

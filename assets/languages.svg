@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-labelledby="t d">
+  <title id="t">Language mix</title>
+  <desc id="d">Primary languages across 29 public repositories.</desc>
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#26ff9c" opacity="0.05" />
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#0a2417" />
+      <stop offset="70%" stop-color="#030705" />
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", "Courier New", monospace; }
+      .hdr { font-size: 12px; letter-spacing: 2.6px; fill: #26ff9c; }
+      .sub { font-size: 10px; letter-spacing: 1.5px; fill: #6fbf97; }
+      .big { font-size: 40px; font-weight: 700; fill: #8dffc6; font-variant-numeric: tabular-nums; }
+      .label { font-size: 10px; letter-spacing: 2px; fill: #6fbf97; }
+      .value { font-size: 13px; fill: #c8ffe3; }
+      .muted { fill: #6fbf97; }
+      
+    </style>
+    
+  </defs>
+  <rect width="880" height="240" rx="6" fill="url(#vignette)" />
+  <rect width="880" height="240" rx="6" fill="url(#scan)" />
+  <rect x="0.5" y="0.5" width="879" height="239" rx="6" fill="none" stroke="#113a2a" />
+  
+  <circle cx="31" cy="26" r="3" fill="#0d6b45" />
+  <circle cx="42" cy="26" r="3" fill="#0d6b45" opacity="0.7" />
+  <circle cx="53" cy="26" r="3" fill="#0d6b45" opacity="0.4" />
+  <text x="70" y="30" class="mono hdr">$ languages --by-primary-repo</text>
+  <text x="852" y="30" class="mono sub" text-anchor="end">UPDATED 2026-11-15</text>
+  <line x1="28" y1="40" x2="852" y2="40" stroke="#0c271d" />
+  <rect x="28" y="78" width="824" height="16" rx="3" fill="#0a1d16" />
+  <rect x="28.00" y="78" width="318.44" height="16" rx="3" fill="#26ff9c" /><rect x="348.44" y="78" width="226.89" height="16" rx="3" fill="#16c87a" /><rect x="577.33" y="78" width="135.33" height="16" rx="3" fill="#0fa968" /><rect x="714.67" y="78" width="89.56" height="16" rx="3" fill="#7fdc9a" /><rect x="806.22" y="78" width="43.78" height="16" rx="3" fill="#2dd4bf" />
+  <g>
+      <rect x="28" y="125" width="9" height="9" rx="2" fill="#26ff9c" />
+      <text x="46" y="134" class="mono" font-size="12" fill="#c8ffe3">Python</text>
+      <text x="414" y="134" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">7 · 38.9%</text>
+    </g>
+  <g>
+      <rect x="452" y="125" width="9" height="9" rx="2" fill="#16c87a" />
+      <text x="470" y="134" class="mono" font-size="12" fill="#c8ffe3">Jupyter Notebook</text>
+      <text x="838" y="134" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">5 · 27.8%</text>
+    </g>
+  <g>
+      <rect x="28" y="153" width="9" height="9" rx="2" fill="#0fa968" />
+      <text x="46" y="162" class="mono" font-size="12" fill="#c8ffe3">HTML</text>
+      <text x="414" y="162" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">3 · 16.7%</text>
+    </g>
+  <g>
+      <rect x="452" y="153" width="9" height="9" rx="2" fill="#7fdc9a" />
+      <text x="470" y="162" class="mono" font-size="12" fill="#c8ffe3">TypeScript</text>
+      <text x="838" y="162" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">2 · 11.1%</text>
+    </g>
+  <g>
+      <rect x="28" y="181" width="9" height="9" rx="2" fill="#2dd4bf" />
+      <text x="46" y="190" class="mono" font-size="12" fill="#c8ffe3">JavaScript</text>
+      <text x="414" y="190" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">1 · 5.6%</text>
+    </g>
+  <text x="28" y="222" class="mono" font-size="9" letter-spacing="1.4" fill="#6fbf97">PRIMARY LANGUAGE OF PUBLIC REPOSITORIES · FORKS EXCLUDED</text>
+  <text x="852" y="222" class="mono" font-size="9" letter-spacing="1.4" fill="#0d6b45" text-anchor="end">29 REPOS</text>
+</svg>
