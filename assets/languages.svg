@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-labelledby="t d">
   <title id="t">Language mix</title>
-  <desc id="d">Primary languages across 32 public repositories.</desc>
+  <desc id="d">Primary languages across 33 public repositories.</desc>
   <defs>
     <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" fill="#26ff9c" opacity="0.05" />
@@ -34,7 +34,7 @@
   <circle cx="42" cy="26" r="3" fill="#0d6b45" opacity="0.7" />
   <circle cx="53" cy="26" r="3" fill="#0d6b45" opacity="0.4" />
   <text x="70" y="30" class="mono hdr">$ languages --by-primary-repo</text>
-  <text x="852" y="30" class="mono sub" text-anchor="end">UPDATED 2026-11-16</text>
+  <text x="852" y="30" class="mono sub" text-anchor="end">UPDATED 2026-11-17</text>
   <line x1="28" y1="40" x2="852" y2="40" stroke="#0c271d" />
   <rect x="28" y="78" width="824" height="16" rx="3" fill="#0a1d16" />
   <rect x="28.00" y="78" width="258.21" height="16" rx="3" fill="#26ff9c" /><rect x="288.21" y="78" width="214.84" height="16" rx="3" fill="#16c87a" /><rect x="505.05" y="78" width="171.47" height="16" rx="3" fill="#0fa968" /><rect x="678.53" y="78" width="84.74" height="16" rx="3" fill="#7fdc9a" /><rect x="765.26" y="78" width="84.74" height="16" rx="3" fill="#2dd4bf" />
@@ -64,5 +64,5 @@
       <text x="414" y="190" class="mono" font-size="11" fill="#6fbf97" text-anchor="end">2 · 10.5%</text>
     </g>
   <text x="28" y="222" class="mono" font-size="9" letter-spacing="1.4" fill="#6fbf97">PRIMARY LANGUAGE OF PUBLIC REPOSITORIES · FORKS EXCLUDED</text>
-  <text x="852" y="222" class="mono" font-size="9" letter-spacing="1.4" fill="#0d6b45" text-anchor="end">32 REPOS</text>
+  <text x="852" y="222" class="mono" font-size="9" letter-spacing="1.4" fill="#0d6b45" text-anchor="end">33 REPOS</text>
 </svg>
