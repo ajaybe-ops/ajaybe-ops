@@ -34,7 +34,7 @@
   <circle cx="42" cy="26" r="3" fill="#0d6b45" opacity="0.7" />
   <circle cx="53" cy="26" r="3" fill="#0d6b45" opacity="0.4" />
   <text x="70" y="30" class="mono hdr">$ languages --by-primary-repo</text>
-  <text x="852" y="30" class="mono sub" text-anchor="end">UPDATED 2026-11-17</text>
+  <text x="852" y="30" class="mono sub" text-anchor="end">UPDATED 2026-11-18</text>
   <line x1="28" y1="40" x2="852" y2="40" stroke="#0c271d" />
   <rect x="28" y="78" width="824" height="16" rx="3" fill="#0a1d16" />
   <rect x="28.00" y="78" width="258.21" height="16" rx="3" fill="#26ff9c" /><rect x="288.21" y="78" width="214.84" height="16" rx="3" fill="#16c87a" /><rect x="505.05" y="78" width="171.47" height="16" rx="3" fill="#0fa968" /><rect x="678.53" y="78" width="84.74" height="16" rx="3" fill="#7fdc9a" /><rect x="765.26" y="78" width="84.74" height="16" rx="3" fill="#2dd4bf" />
