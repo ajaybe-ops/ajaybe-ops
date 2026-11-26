@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-labelledby="t d">
   <title id="t">GitHub statistics</title>
-  <desc id="d">36 public repositories, 27 stars, 4 followers.</desc>
+  <desc id="d">36 public repositories, 28 stars, 4 followers.</desc>
   <defs>
     <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" fill="#26ff9c" opacity="0.05" />
@@ -47,7 +47,7 @@
     <rect x="238.0" y="74" width="194.0" height="118" rx="4" fill="#071410" stroke="#0c271d" />
     <rect x="238.0" y="74" width="2" height="118" fill="#0d6b45" />
     <text x="254.0" y="100" class="mono label">STARS EARNED</text>
-    <text x="254.0" y="148" class="mono big" filter="url(#glow)">27</text>
+    <text x="254.0" y="148" class="mono big" filter="url(#glow)">28</text>
     <text x="254.0" y="174" class="mono" font-size="9" letter-spacing="1" fill="#6fbf97">across public repos</text>
   </g>
   <g>
